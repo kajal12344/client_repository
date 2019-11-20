@@ -1,0 +1,17 @@
+
+<div class="table-responsive">
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>NO</th>
+        <th>Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor='let emp of employees'>
+        <td>{{emp.id}}</td>
+        <td>{{emp.name}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
